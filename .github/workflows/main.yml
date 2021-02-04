@@ -3,7 +3,7 @@ on:
   push: # 触发机制为push操作
     branches: main
   schedule: # 触发机制为定时任务
-    - cron: "01 14 * * *" # 每天16点01分自动执行
+    - cron: "15 14 * * *" # 每天16点01分自动执行
 jobs:
   autosend:
     runs-on: ubuntu-latest # 运行环境为最新的Ubuntu
